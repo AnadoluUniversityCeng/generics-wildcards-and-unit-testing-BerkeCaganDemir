@@ -13,7 +13,7 @@ import static org.junit.Assert.assertTrue;
  * Unit tests for the first part of the project.
  */
 public class FailingTest {
-  @Test(timeout = 9999)
+  @Test(timeout = 1000)
     public void testInfiniteLoop() {
         try {
             App.infiniteLoop(Double.POSITIVE_INFINITY);
